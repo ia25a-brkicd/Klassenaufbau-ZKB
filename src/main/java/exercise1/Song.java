@@ -12,6 +12,7 @@ public class Song {
         this.titel = titel;
         this.duration = duration;
         this.artist = artist;
+
     }
 
     public String songTime() {
