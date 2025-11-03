@@ -23,23 +23,17 @@ public class BankAccount {
       else{
           balance -= withdrawAmount;
       }
-
-
   }
 
   public void printBalance() {
     System.out.println(balance);
   }
 
-
-
-
-
   public String toString() {
       return name + ", " + surname + ", " + accountNumber + ", " + balance +  ", " + limit;
   }
 
-    public void deposit(int i) {
+  public void deposit(int i) {
       balance += i;
-    }
+  }
 }
